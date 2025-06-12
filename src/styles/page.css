@@ -1,0 +1,30 @@
+:root {
+    --tiles-background-color: oklch(70.9% 0.01 56.259);
+}
+
+body {
+    margin: 0px;
+}
+
+.container {
+    background-color: oklch(97% 0.001 106.424);
+}
+
+.body {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.headerTitle {
+    text-align: center;
+    margin: 0px;
+    padding: 25px;
+}
+
+.footer {
+    padding: 25px;
+    text-align: center;
+    background-color: var(--tiles-background-color);
+}

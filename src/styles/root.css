@@ -1,0 +1,13 @@
+:root {
+    font-family: sans-serif, Arial, 'Times New Roman';
+}
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}

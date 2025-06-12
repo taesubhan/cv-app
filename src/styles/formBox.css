@@ -1,0 +1,123 @@
+:root {
+    /* CV Display */
+    --input-header-title-font-size: 32px;
+    --form-text-size: 18px;
+    --input-header-box-color: oklch(70.9% 0.01 56.259);
+}
+
+/* Form Header */
+.InputHeader {
+    display: flex;
+    background-color: var(--input-header-box-color);
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.inputTitle {
+    margin: 0px;
+    font-size: var(--input-header-title-font-size);
+}
+
+/* Input Box Questions */
+
+.questionLabel,
+.responseInput {
+    font-size: var(--form-text-size);    
+}
+
+.responseInput {
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.formBoxContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.inputContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.dateInputContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+
+.inputForm {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.experienceForm {
+    gap: 0px;
+}
+
+.inputList {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px; 
+    border-top: 1px rgba(154, 153, 153, 0.609) solid;
+    padding: 20px 0px;
+}
+
+.dialogContainer{
+    padding: 20px 0px;
+}
+
+#jobResponsibilitiesInput {
+    height: 100px;
+}
+
+
+/* Buttons */
+
+.removeExperience {
+    text-align: center;
+}
+
+.submitInput {
+    text-align: center;
+}
+
+.chevronArrow {
+    width: 40px;
+}
+
+.experienceBtns {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.submitButton,
+.addExperienceBtn {
+    padding: 10px 20px;
+    font-size: var(--form-text-size);
+    border-radius: 5px;
+}
+
+.submitButton {
+    background-color: oklch(98.2% 0.018 155.826);
+}
+
+.addExperienceBtn {
+    background-color: oklch(97.7% 0.013 236.62);
+}
+
+.removeExperienceBtn {
+    width: 25px;
+    filter: brightness(0) saturate(100%) invert(50%) sepia(80%) saturate(6821%) hue-rotate(343deg) brightness(107%) contrast(107%);
+}
+
+.clickable:hover {
+    cursor: pointer;
+}
+
